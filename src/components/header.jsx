@@ -1,5 +1,5 @@
 import '../styles/header.css';
-import logo from '../assets/logo.png';
+import Logo from '../assets/logo_header.png';
 import { Link } from 'react-router-dom';
 
 
@@ -7,7 +7,7 @@ function Header() {
     return (
       <div className="kasa-header">
         <h1>
-          <img src={logo} alt="Kasa logo" className="kasa-logo" />
+          <img src={Logo} alt="Logo de Kasa" className="header-logo" />
         </h1>
         <nav>
           <ul>

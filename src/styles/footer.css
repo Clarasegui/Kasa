@@ -1,0 +1,17 @@
+.footer-container {
+  background-color: black;
+  margin-bottom: 0px;
+  margin-top: 40px;
+  margin-left: 55px;
+  margin-right: 55px;
+  height: 209px;
+}
+
+.footer-logo {
+  margin-top: 60px;
+}
+
+.footer-text {
+  color: white;
+  font-size: 14px;
+}

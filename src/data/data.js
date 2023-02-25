@@ -1,4 +1,4 @@
-const housesList = [
+const datas = [
 	{
 		"id": "c67ab8a7",
 		"title": "Appartement cosy",
@@ -618,14 +618,4 @@ const housesList = [
 	}
 ]
 
-function HousingList() {
-    return (
-        <ul>
-            {housesList.map((plant) => (
-                <li>{plant}</li>
-            ))}
-        </ul>
-    )
-}
-
-export default HousingList
+export default datas;
