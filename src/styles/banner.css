@@ -1,0 +1,20 @@
+.banner-container {
+  display: inline-block;
+  border-radius: 25px;
+}
+
+.banner-img {
+  mix-blend-mode: darken;
+  opacity: 0.8;
+  border-radius: 25px;
+}
+
+h2 {
+  position: absolute;
+  left: 365px;
+  top: 170px;
+  font-family: 'Montserrat';
+  font-size: 48px;
+  font-style: normal;
+  color: #ffffff;
+}

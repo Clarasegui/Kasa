@@ -1,0 +1,19 @@
+.kasa-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 52px;
+  margin-right: 70px;
+}
+
+.kasa-logo {
+  width: 80%;
+}
+
+.nav-li {
+  list-style-type: none;
+  float: left;
+  margin: 0px;
+  padding-left: 50px;
+}
