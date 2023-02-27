@@ -4,7 +4,7 @@ import KasaBanner from '../components/banner';
 import Gallery from '../components/gallery';
 import Footer from '../components/footer';
 
-function home() {
+function Home() {
   return (
     <div className="home-container">
     <Header />
@@ -15,4 +15,4 @@ function home() {
   );
 }
 
-export default home;
+export default Home;

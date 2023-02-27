@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat/static/Montserrat-Light.ttf') format('ttf'),
+    url('../fonts/Montserrat/static/Montserrat-Bold.ttf') format('ttf');
+}
+
+.error-container {
+    width: auto;
+    height: auto;
+}
+
+.error-title {
+    color: #FF6060;
+    font-size: 250px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.error-description {
+    color: #FF6060;
+    font-size: 20px;
+}
+
+.error-link-back-container {
+    margin-top: 150px;
+}
+
+.error-link-back {
+    text-decoration: underline;
+}
