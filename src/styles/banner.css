@@ -3,10 +3,19 @@
   border-radius: 25px;
 }
 
-.banner-img {
+.home-banner-img {
   mix-blend-mode: darken;
   opacity: 0.8;
   border-radius: 25px;
+}
+
+.about-banner-img {
+  mix-blend-mode: darken;
+  opacity: 0.8;
+  border-radius: 25px;
+  object-fit: cover;
+  width: 1240px;
+  height: 223px;
 }
 
 h2 {
