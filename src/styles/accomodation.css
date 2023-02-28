@@ -1,0 +1,32 @@
+.accomodation {
+  width: 1024px
+}
+
+.accomodation-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.accomodation-title {
+  text-align: left;
+  color: #ff6060;
+  font-size: 30px;
+}
+
+.accomodation-location {
+  text-align: left;
+  color: #ff6060;
+  font-size: 15px;
+}
+
+button {
+  background-color: #ff6060;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 15px 5px 15px;
+}
+
+.host-picture {
+  border-radius: 85px;
+}

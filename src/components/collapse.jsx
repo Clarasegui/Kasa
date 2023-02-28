@@ -1,8 +1,8 @@
 import '../styles/collapse.css'
-import Arrow from '../assets/arrow.png';
+import Arrow from '../assets/arrow_up_down.png';
 import { useState } from 'react';
 
-function Collapse({ title, content }) {
+function Collapse({ title, content, width }) {
   const [toggle, setToggle] = useState(false);
 
   return (

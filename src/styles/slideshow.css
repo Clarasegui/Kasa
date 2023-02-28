@@ -1,0 +1,36 @@
+.carousel {
+  position: relative;
+  display: flex;
+  width: 1240px;
+  height: 415px;
+  border-radius: 25px;
+  background-position: center;
+  background-size: cover;
+  margin: 43px auto;
+}
+
+.slideshow-arrow-right {
+  position: absolute;
+  top: 50%;
+  right: 1%;
+}
+
+.slideshow-arrow-left {
+  position: absolute;
+  top: 50%;
+  left: 1%;
+}
+
+.slideshow-arrow-right,
+.slideshow-arrow-left {
+  width: 45px;
+  height: 60px;
+}
+
+.images-counter {
+  position: absolute;
+  top: 86%;
+  left: 48%;
+  color: white;
+  font-size: 17px;
+}
