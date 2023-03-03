@@ -1,8 +1,12 @@
+/* POLICES */
+
 @font-face {
   font-family: 'Montserrat';
   src: url('../fonts/Montserrat/static/Montserrat-Light.ttf') format('ttf'),
     url('../fonts/Montserrat/static/Montserrat-Bold.ttf') format('ttf');
 }
+
+/* BLOC PAGE */
 
 .App {
   text-align: center;
@@ -10,9 +14,8 @@
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
-  margin-top: 3px;
-  margin-right: 35px;
-  margin-left: 35px;
+  margin-right: 123px;
+  margin-left: 95px;
 }
 
 body {
@@ -23,6 +26,8 @@ body {
   font-size: 24px;
 }
 
+/* LIENS */
+
 a {
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
@@ -32,4 +37,24 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+/* MEDIA QUERIES */
+
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 992px) {
+}
+
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 768px) {
+  .App {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  a {
+    font-size: 12px;
+  }
 }

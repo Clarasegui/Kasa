@@ -4,7 +4,7 @@
   align-items: flex-end;
   border-radius: 10px;
   margin: 20px;
-  transition : box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out;
 }
 
@@ -26,7 +26,7 @@
 
 .card-container:hover {
   box-shadow: 4px 3px 8px 2px rgba(0, 0, 0, 0.26);
-   transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .card-img {
@@ -44,4 +44,24 @@ h3 {
   margin-bottom: 15px;
   margin-left: 10px;
   text-align: left;
+}
+
+/* MEDIA QUERIES */
+
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 992px) {
+  .card-img {
+    width: 260px;
+    height: 200px;
+  }
+}
+
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 768px) {
+    .card-img {
+    width: 335px;
+    height: 255px;
+  }
 }

@@ -1,13 +1,15 @@
-import '../styles/collapse.css'
+import '../styles/collapse.css';
 import Arrow from '../assets/arrow_up_down.png';
 import { useState } from 'react';
 
-function Collapse({ title, content, width }) {
+function Collapse({ title, content, currentWidth, currentMargin }) {
   const [toggle, setToggle] = useState(false);
-
   return (
-    <main className="collapse-container">
-      <div className="collapse-title-container">
+    <main
+      className="collapse-container collapse-container-accomodation"
+      style={{ margin: currentMargin, width: currentWidth }}
+    >
+      <div className="collapse-title-container collapse-title-container-accomodation">
         <div className="collapse-title" onClick={() => setToggle(!toggle)}>
           {title}{' '}
           <img

@@ -1,16 +1,21 @@
 .accomodation {
-  width: 1024px
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
 }
 
 .accomodation-content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 .accomodation-title {
   text-align: left;
   color: #ff6060;
   font-size: 30px;
+  margin: 0;
 }
 
 .accomodation-location {
@@ -19,14 +24,123 @@
   font-size: 15px;
 }
 
+.accomodation-infos {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
 button {
   background-color: #ff6060;
   color: white;
   border: none;
   border-radius: 10px;
-  padding: 5px 15px 5px 15px;
+  padding: 5px 30px 5px 30px;
+  margin: 0 15px 0 0;
+}
+
+.accomodation-content-host-container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.accomodation-content-host {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .host-picture {
+  margin-left: 10px;
   border-radius: 85px;
+  width: 65px;
+}
+
+.accomodation-content-host-name {
+  color: #ff6060;
+  font-size: 15px;
+  text-align: right;
+}
+p {
+  margin: 0;
+}
+
+.rating-stars {
+  width: 22px;
+  margin: 20px 10px 0 0;
+}
+
+.collapses {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* MEDIA QUERIES */
+
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 992px) {
+}
+
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 768px) {
+  .accomodation-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .accomodation-title {
+    font-size: 18px;
+  }
+
+  .accomodation-location {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 10px;
+    padding: 5px 10px 5px 10px;
+    margin: 0 5px 0 0;
+  }
+
+  .accomodation-content-host-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 128px;
+  }
+
+  .accomodation-content-host {
+    display: flex;
+    align-items: center;
+  }
+
+  .accomodation-content-host-name {
+    display: flex;
+    flex-direction: column;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .host-picture {
+    width: 50px;
+  }
+
+  .rating-stars {
+    width: 15px;
+    margin: 0 5px 0 0;
+  }
+
+  .collapses {
+    flex-direction: column;
+  }
+
+  .collapse-container-accomodation {
+    width: 100px;
+  }
 }

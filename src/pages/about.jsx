@@ -1,4 +1,3 @@
-import '../styles/about.css';
 import Header from '../components/header';
 import KasaBanner from '../components/banner';
 import Collapse from '../components/collapse';
@@ -14,7 +13,10 @@ function about() {
         {AboutDatas.map((data) => {
           return (
             <div key={data.id} className="about-collapse">
-              <Collapse title={data.title} content={data.content} />
+              <Collapse
+                title={data.title}
+                content={data.content}
+              />
             </div>
           );
         })}

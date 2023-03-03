@@ -1,12 +1,11 @@
-.carousel {
+.slideshow {
   position: relative;
   display: flex;
-  width: 1240px;
+  width: 1215px;
   height: 415px;
   border-radius: 25px;
   background-position: center;
   background-size: cover;
-  margin: 43px auto;
 }
 
 .slideshow-arrow-right {
@@ -23,7 +22,7 @@
 
 .slideshow-arrow-right,
 .slideshow-arrow-left {
-  width: 45px;
+  width: 35px;
   height: 60px;
 }
 
@@ -33,4 +32,33 @@
   left: 48%;
   color: white;
   font-size: 17px;
+}
+
+/* MEDIA QUERIES */
+
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 992px) {
+}
+
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 768px) {
+
+.slideshow {
+  width: 335px;
+  height: 255px;
+  margin: 7px 0 10px 5px;
+}
+
+.images-counter {
+  visibility: hidden;
+}
+
+.slideshow-arrow-right,
+.slideshow-arrow-left {
+  width: 11px;
+  height: 19px;
+}
+
 }

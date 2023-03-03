@@ -1,7 +1,8 @@
 @font-face {
   font-family: 'Montserrat';
   src: url('../fonts/Montserrat/static/Montserrat-Light.ttf') format('ttf'),
-    url('../fonts/Montserrat/static/Montserrat-Bold.ttf') format('ttf');
+    url('../fonts/Montserrat/static/Montserrat-Bold.ttf') format('ttf'),
+    url('../fonts/Montserrat/static/Montserrat-ExtraBold.ttf') format('ttf');
 }
 
 .error-container {
@@ -10,6 +11,7 @@
 }
 
 .error-title {
+    font-weight: bold;
     color: #FF6060;
     font-size: 250px;
     margin-top: 50px;
@@ -27,4 +29,31 @@
 
 .error-link-back {
     text-decoration: underline;
+}
+
+/* MEDIA QUERIES */
+
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 992px) {
+}
+
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 768px) {
+    .error-title {
+    font-size: 98px;
+}
+
+.error-description {
+    font-size: 18px;
+}
+
+.error-link-back {
+    font-size: 14px;
+}
+
+.error-link-back-container {
+    margin-bottom: 100px;
+}
 }

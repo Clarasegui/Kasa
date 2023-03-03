@@ -21,7 +21,7 @@ function Slideshow(props) {
       style={{
         backgroundImage: `url(${props.imageSlider[currentIndex]})`,
       }}
-      className="carousel"
+      className="slideshow"
     >
       {props.imageSlider.length > 1 && (
         <>

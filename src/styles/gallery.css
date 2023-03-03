@@ -5,8 +5,23 @@
   align-items: center;
   padding: 30px;
   margin-top: 45px;
-  margin-left: 55px;
-  margin-right: 55px;
   background: #f7f7f7;
   border-radius: 25px;
+}
+
+/* MEDIA QUERIES */
+
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 992px) {
+}
+
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 768px) {
+    .gallery-container {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+  }
 }

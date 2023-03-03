@@ -3,12 +3,13 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-left: 52px;
-  margin-right: 70px;
 }
 
 .header-logo {
   width: 80%;
+}
+
+.logo-link {
 }
 
 .nav-li {
@@ -16,4 +17,45 @@
   float: left;
   margin: 0px;
   padding-left: 50px;
+}
+
+/* MEDIA QUERIES */
+
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 992px) {
+}
+
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 768px) {
+  .kasa-header {
+    margin-top: 22px;
+    margin-bottom: 15px;
+  }
+
+  h1 {
+    margin: 0 0 0 10px;
+  }
+
+  .header-logo {
+    width: 135px;
+  }
+
+  nav {
+    width: 158px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-li {
+    padding-left: 15px;
+    text-transform: uppercase;
+  }
 }
