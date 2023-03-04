@@ -1,16 +1,17 @@
 import '../styles/home.css';
 import Header from '../components/header';
-import KasaBanner from '../components/banner';
+import Banner from '../components/banner';
 import Gallery from '../components/gallery';
 import Footer from '../components/footer';
+import homeBannerImage from '../assets/home_banner.png';
 
 function Home() {
   return (
     <div className="home-container">
-    <Header />
-    <KasaBanner />
-    <Gallery />
-    <Footer />
+      <Header />
+      <Banner image={homeBannerImage} />
+      <Gallery />
+      <Footer />
     </div>
   );
 }

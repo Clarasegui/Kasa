@@ -62,10 +62,10 @@ function Accomodation() {
                 <p>{name[1]}</p>
               </div>
               <img
-                  className="host-picture"
-                  src={AccomodationID[0].host.picture}
-                  alt="Host of this accomodation"
-                />
+                className="host-picture"
+                src={AccomodationID[0].host.picture}
+                alt="Host of this accomodation"
+              />
             </div>
           </div>
         </div>
@@ -73,14 +73,12 @@ function Accomodation() {
           <Collapse
             title={'Description'}
             content={description}
-            currentWidth="500px"
-            currentMargin="0px"
+            className="small-collapse-container"
           />
           <Collapse
             title={'Équipements'}
             content={equipments}
-            currentWidth="500px"
-            currentMargin="0px"
+            className="small-collapse-container"
           />
         </div>
       </main>

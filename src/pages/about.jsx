@@ -1,14 +1,16 @@
+import '../styles/banner.css';
 import Header from '../components/header';
-import KasaBanner from '../components/banner';
+import Banner from '../components/banner';
 import Collapse from '../components/collapse';
 import Footer from '../components/footer';
 import AboutDatas from '../data/about.js';
+import aboutBannerImage from '../assets/about_banner.png';
 
 function about() {
   return (
     <div>
       <Header />
-      <KasaBanner />
+      <Banner image={aboutBannerImage} />
       <main className="about-container">
         {AboutDatas.map((data) => {
           return (
@@ -16,6 +18,7 @@ function about() {
               <Collapse
                 title={data.title}
                 content={data.content}
+                className="collapse-container"
               />
             </div>
           );

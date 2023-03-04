@@ -3,20 +3,13 @@
   border-radius: 25px;
 }
 
-.home-banner-img {
+.banner-img {
   filter: brightness(60%);
   opacity: 0.8;
   border-radius: 25px;
   width: 1207px;
-}
-
-.about-banner-img {
-  filter: brightness(60%);
-  opacity: 0.8;
-  border-radius: 25px;
+  height: 200px;
   object-fit: cover;
-  width: 1207px;
-  height: 223px;
 }
 
 h2 {
@@ -34,7 +27,7 @@ h2 {
 /* Si l'écran est inférieur ou égal à */
 
 @media screen and (max-width: 992px) {
-  .home-banner-img {
+  .banner-img {
     width: 774px;
   }
 
@@ -48,15 +41,9 @@ h2 {
 /* Si l'écran est inférieur ou égal à */
 
 @media screen and (max-width: 768px) {
-  .home-banner-img {
+  .banner-img {
     width: 335px;
     height: 111px;
-    border-radius: 10px;
-  }
-
-  .about-banner-img {
-    width: 335px;
-    height: 223px;
     border-radius: 10px;
   }
 
