@@ -10,7 +10,9 @@ function about() {
   return (
     <div>
       <Header />
-      <Banner image={aboutBannerImage} />
+      <Banner
+       image={aboutBannerImage} 
+       className="h2-about"/>
       <main className="about-container">
         {AboutDatas.map((data) => {
           return (

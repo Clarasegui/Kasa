@@ -7,13 +7,19 @@ function Slideshow(props) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
-    setCurrentIndex(currentIndex + 1);
-    if (currentIndex === props.imageSlider.length - 1) setCurrentIndex(0);
+    if (currentIndex === props.imageSlider.length - 1) {
+      setCurrentIndex(0);
+    } else {
+      setCurrentIndex(currentIndex + 1);
+    }
   };
 
   const previousSlide = () => {
-    setCurrentIndex(currentIndex - 1);
-    if (currentIndex === 0) setCurrentIndex(props.imageSlider.length - 1);
+    if (currentIndex === 0) {
+      setCurrentIndex(props.imageSlider.length - 1);
+    } else {
+      setCurrentIndex(currentIndex - 1);
+    }
   };
 
   return (
