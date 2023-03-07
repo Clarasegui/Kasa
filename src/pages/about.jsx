@@ -6,7 +6,7 @@ import Footer from '../components/footer';
 import AboutDatas from '../data/about.js';
 import aboutBannerImage from '../assets/about_banner.png';
 
-function about() {
+function About() {
   return (
     <div>
       <Header />
@@ -31,4 +31,4 @@ function about() {
   );
 }
 
-export default about;
+export default About;

@@ -72,11 +72,6 @@ p {
   margin: 20px 10px 0 0;
 }
 
-.collapses {
-  display: flex;
-  justify-content: space-between;
-}
-
 /* MEDIA QUERIES */
 
 /* Si l'écran est inférieur ou égal à */
@@ -134,15 +129,7 @@ p {
   }
 
   .rating-stars {
-    width: 15px;
+    width: 13px;
     margin: 0 5px 0 0;
-  }
-
-  .collapses {
-    flex-direction: column;
-  }
-
-  .collapse-container-accomodation {
-    width: 100px;
   }
 }

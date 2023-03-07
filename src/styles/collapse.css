@@ -6,17 +6,21 @@
 }
 
 .collapse-container {
-  width: 80%;
+  width: 1023px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   margin: 0 auto;
+}
+
+.collapses {
+  display: flex;
+  justify-content: space-between;
 }
 
 .small-collapse-container {
   width: 500px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  margin: 10px 20px 27px 0px;
 }
 
 .about-collapse {
@@ -84,6 +88,14 @@
 @media screen and (max-width: 768px) {
   .collapse-container {
     width: 300px;
+  }
+
+  .collapses {
+    flex-direction: column;
+  }
+
+  .collapse-container-accomodation {
+    width: 100px;
   }
 
   .small-collapse-container {
